@@ -1,0 +1,9 @@
+{
+"build": "./build/",
+"css": "./css/",
+"src": "./src/",
+"tmpl": "./tmpl/",
+"images": "./images/",
+"index": "./index.html",
+"port": "8124"
+}

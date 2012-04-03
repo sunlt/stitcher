@@ -1,0 +1,12 @@
+coffee-script js less css eco  commonJs stitcher.
+
+install: npm install stitcher -g 
+
+usage: stitcher COMMAND
+	server
+	build
+	buildAll 
+	
+
+use less  http://lesscss.org/
+use eco   https://github.com/sstephenson/eco
