@@ -1,0 +1,10 @@
+node_modules/
+npm-debug.log
+.DS_Store
+*.sublime-project
+*.sublime-workspace
+*.bak
+*_bak
+Thumbs.db
+.git/
+.svn/

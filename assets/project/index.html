@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Backbone Demo: Todos</title>
+    <% for item in @css: %>
+	<link rel="stylesheet" type="text/css" href="<%= item %>" media="all" />
+	<% end %>	
+  </head>
+  <body>
+    <h1>一个新项目!</h1>
+	<% for item in @script: %>
+	<script type="text/javascript" src="<%= item %>"></script>
+	<% end %>
+  </body>
+</html>
