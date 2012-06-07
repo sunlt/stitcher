@@ -11,7 +11,6 @@
   "main" : "./lib/main.js",
   "bin": { "stitcher": "./bin/stitcher" },
   "dependencies" : { 
-    "eco": ">=1.1.0-rc-1",
     "optimist": ">=0.3.0",
     "coffee-script" : ">=1.1.2",
     "less" : ">=1.1.6",
