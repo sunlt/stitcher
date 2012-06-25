@@ -51,10 +51,4 @@
 			return require(name, '');
 		};
 	};
-}).call(this)(
-<% if @sourceMap: %>
-{<%-@sourceMap %>}
-<% else: %>
-__sourceMap
-<% end %>
-)('./js/main');
+}).call(this)(<%=(!!sourceMap?sourceMap:'__sourceMap') %>)('./js/main');

@@ -1,7 +1,5 @@
-.svn
-.git
 node_modules
 npm-debug.log
 .DS_Store
-stitcher.sublime-project
-stitcher.sublime-workspace
+*.sublime-project
+*.sublime-workspace

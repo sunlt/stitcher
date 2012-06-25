@@ -1,20 +1,20 @@
 { 
   "name": "stitcher", 
-  "description": "coffee-script js less css eco  commonJs stitcher.", 
-  "homepage" : "https://github.com/sunlt/stitcher",
-  "version": "0.3.6", 
-  "author": "sunliutao", 
+  "description": "coffee-script js less css eco  commonJs stitcher.",
+  "version": "0.5.0",
+  "author": "sunlt", 
   "email":"sunliutao@foxmail.com",
   "engines":{
     "node":">=0.6.0"
   },
   "main" : "./lib/main.js",
   "bin": { "stitcher": "./bin/stitcher" },
-  "dependencies" : { 
+  "dependencies" : {
+    "adm-zip":"~0.1.4",
+    "fstream-ignore": "~0.0.5",
     "optimist": ">=0.3.0",
     "coffee-script" : ">=1.1.2",
     "less" : ">=1.1.6",
-    "connect" : ">=1.8.2",
-    "eventproxy" : ">=0.1.0"
+    "connect" : ">=1.8.2"
   }
 }
