@@ -27,9 +27,9 @@
 		parts,
 		part;			
 		if (/^\.\.?(\/|$)/.test(name)) {
-				parts = [root, name].join('/').split('/');
+				parts = [root,name].join('/').split('/');
 		}else {
-			parts = name.split('/');
+			parts = name.split('/')
 		}
 		for (var i = 0, length = parts.length; i < length; i++) {
 			part = parts[i];
