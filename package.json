@@ -11,7 +11,6 @@
   "bin": { "stitcher": "./bin/stitcher" },
   "dependencies" : {
     "adm-zip":"~0.1.4",
-    "fstream-ignore": "~0.0.5",
     "optimist": ">=0.3.0",
     "coffee-script" : ">=1.1.2",
     "less" : ">=1.1.6",
