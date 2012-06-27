@@ -51,4 +51,4 @@
 			return require(name, '');
 		};
 	};
-}).call(this)(<%=(!!sourceMap?sourceMap:'__sourceMap') %>)('./js/main');
+}).call(this)(<%-(!!sourceMap?'{'+sourceMap+'}':'__sourceMap') %>)('./js/main');
