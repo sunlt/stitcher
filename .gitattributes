@@ -1,0 +1,4 @@
+# Disable LF normalization for all files
+* -text
+
+text eol=crlf
