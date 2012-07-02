@@ -5,12 +5,12 @@
   "author": "sunlt", 
   "email":"sunliutao@foxmail.com",
   "engines":{
-    "node":">=0.6.0"
+    "node":">=0.8.0"
   },
   "main" : "./lib/main.js",
   "bin": { "stitcher": "./bin/stitcher" },
   "dependencies" : {
-    "ejs":"~0.7.2",
+    "ejs":">=0.7.2",
     "optimist": ">=0.3.0",
     "coffee-script" : ">=1.1.2",
     "less" : ">=1.1.6",
