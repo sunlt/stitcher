@@ -1,8 +1,14 @@
-coffee-script js less css eco  commonJs stitcher.
+coffee-script,javascript,less,css,javascript template stitcher with commonJs.
 
-install: npm install stitcher -g 
 
-usage: stitcher COMMAND
-	server
-	build
-  create
+javascript template use ejs!
+  https://github.com/visionmedia/ejs
+
+install: 
+  sudo npm install stitcher -g 
+
+usage: 
+  stitcher COMMAND
+  	server
+  	build
+    create

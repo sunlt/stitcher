@@ -1,13 +1,16 @@
 { 
   "name": "stitcher", 
-  "description": "coffee-script js less css eco  commonJs stitcher.",
-  "version": "0.5.0",
+  "homepage":"https://github.com/sunlt/stitcher",
+  "description": "coffee-script,javascript,less,css,javascript template stitcher with commonJs.",
+  "version": "0.5.1",
   "author": "sunlt", 
   "email":"sunliutao@foxmail.com",
-  "engines":{
-    "node":">=0.8.0"
-  },
+  "engines":{"node":">=0.8.0"},
   "main" : "./lib/main.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sunlt/stitcher.git"
+  },
   "bin": { "stitcher": "./bin/stitcher" },
   "dependencies" : {
     "ejs":">=0.7.2",
