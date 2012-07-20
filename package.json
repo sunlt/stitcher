@@ -2,7 +2,7 @@
   "name": "stitcher", 
   "homepage":"https://github.com/sunlt/stitcher",
   "description": "coffee-script,javascript,less,css,javascript template stitcher with commonJs.",
-  "version": "0.5.1",
+  "version": "0.5.2",
   "author": "sunlt", 
   "email":"sunliutao@foxmail.com",
   "engines":{"node":">=0.8.0"},
