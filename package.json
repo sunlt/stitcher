@@ -13,10 +13,11 @@
   },
   "bin": { "stitcher": "./bin/stitcher" },
   "dependencies" : {
-    "ejs":">=0.7.2",
-    "optimist": ">=0.3.0",
-    "coffee-script" : ">=1.1.2",
-    "less" : ">=1.1.6",
-    "connect" : ">=1.8.2"
+    "Sheet":"",
+    "ejs":"",
+    "optimist": "",
+    "coffee-script" : "",
+    "less" : "",
+    "connect" : ""
   }
 }
