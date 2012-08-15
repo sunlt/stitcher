@@ -13,7 +13,6 @@
   },
   "bin": { "stitcher": "./bin/stitcher" },
   "dependencies" : {
-    "Sheet":"",
     "ejs":"",
     "optimist": "",
     "coffee-script" : "",
